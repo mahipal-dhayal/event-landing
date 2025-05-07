@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎉 Event Landing Page
 
-## Getting Started
+A responsive event landing page built with **Next.js** and **Tailwind CSS**. This landing page is designed to showcase event details with a clean, responsive layout suitable for both mobile and desktop devices.
 
-First, run the development server:
+✨ **Features**
+- Responsive design that adapts for mobile and desktop.
+- Customizable event poster with an image.
+- Event details section with information about the event, date, speaker, and more.
+- Registration section to allow users to sign up for the event.
+- Simple and clean UI built with **Next.js** and **Tailwind CSS**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📸 **Live Demo**  
+You can view the live demo of the Event Landing Page here:  
+[Event Landing Page Demo](https://event-landing-chi.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ **How to Use**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahipal-dhayal/event-landing.git
+   cd event-landing
+   ```
+2. Install Dependencies:
+   ```bash
+   npm i
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Running the Development Server
+   ```bash
+   npm run dev
+   ```
+#
+**Accessing the App
+**
+Open your browser and visit http://localhost:3000 to view the event landing page.
 
-## Learn More
+**🔧 Technologies Used**
 
-To learn more about Next.js, take a look at the following resources:
+**Next.js:** React framework for building fast and scalable applications.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**TypeScript:** Strongly typed programming language for scalable code.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Tailwind CSS:** Utility-first CSS framework for custom design.
 
-## Deploy on Vercel
+React Icons: For adding scalable vector icons.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**📚 Customization**
+**Event Poster**
+Replace the image in public/event-banner.jpg with your custom event poster.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Event Details**
+Update the event's name, date, time, and description in the EventDetails.tsx file.
+
+**Registration Section**
+Modify the Registration.tsx file to customize the registration form and its functionality.
+
+**Google Sheets Integration**
+Set up your Google Sheets API and add the required API credentials in the .env.local file for storing registration data.
+   ```bash
+   GOOGLE_SERVICE_ACCOUNT_KEY=
+   GOOGLE_SHEET_ID=
+   ```
